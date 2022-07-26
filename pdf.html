@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+	<title>PDFH5</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/pdfh5.css" />
+	<style>
+		.pdfjs {
+			width: 100%;
+			height: 100%;
+			/* height: 50%; */
+			overflow: hidden;
+			background: #fff;
+			position: relative;
+		}
+		/* .pdfjs2 {
+			width: 100%;
+			height: 50%;
+			overflow: hidden;
+			background: #fff;
+			position: relative;
+		} */
+	</style>
+</head>
+
+<body>
+	<div class="pdfjs"></div>
+	<!-- <div class="pdfjs2"></div> -->
+	<script src="js/pdf.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pdf.worker.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pdfh5.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var url = "http://118.89.56.33:8999/pdfh5/default.pdf"
+		// var url = 'default.pdf';
+		var pdfh5 = new Pdfh5('.pdfjs', {
+			pdfurl: url
+		});
+		// var pdfh52 = new Pdfh5('.pdfjs2',{
+		// 	pdfurl: 'test.pdf'
+		// });
+		//pdfh5.zoomChange pdfh5.renderPages pdfh5.renderEnd pdfh5.scroll pdfh5.show pdfh5.hide
+		//pdfh5还有pdfh5开始初始化、pdfh5加载完成、PDF加载失败、PDF加载成功事件：   pdfh5.start pdfh5.complete pdfh5.error pdfh5.success 
+		//pdfh5还有还原事件、销毁事件（附带回调函数）：   pdfh5.reset pdfh5.destroy 
+		//pdfh5还有静态参数： 
+		//pdf最外层div pdfh5.container
+		//pdf第二层div pdfh5.viewerContainer
+		//所有包裹pdf的div的父div pdfh5.viewer
+		//所有包裹pdf的div pdfh5.pages
+		//pdf加载完成状态 pdfh5.pdfLoaded
+		//pdf总页数 pdfh5.totalNum
+		//pdf当前页数 pdfh5.currentNum
+		//pdfh5初始化的时间戳 pdfh5.initTime
+		//pdfh5开始渲染距离初始化多少毫秒 pdfh5.startTime
+		//pdfh5渲染完毕距离初始化多少毫秒  pdfh5.endTime
+		//pdfh5渲染过程中时间戳   pdfh5.renderTime
+		//pdfh5支持在线预览 http://www.gjtool.cn/pdfh5/pdf.html?file=http://xxx.xxx.xxx/xxx.pdf
+	</script>
+</body>
+
+</html>

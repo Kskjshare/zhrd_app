@@ -1,0 +1,220 @@
+
+.nosolutions {padding-top: 1.2rem;}
+/* #auditlayout article>ul>li {display: flex;height: 72px;}
+#auditlayout article>ul>li>img {padding-left: .14rem;width: 100px; height: 60px;margin-top: 4px;}
+#auditlayout article>ul>li>a {display: inline; padding-left: 0.4rem; }
+#auditlayout ul li h1{
+   padding-right: .2rem;word-wrap:break-word;overflow: hidden;text-overflow: ellipsis;line-height:22px;color: #000;
+   font-size:15px;
+   padding-top: 8px;
+   width:98%;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -moz-box;
+  -moz-line-clamp: 2;
+  -moz-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;  
+ } */
+ 
+ /* .auditlayout ul{}
+ .auditlayout ul li{line-height: .9rem;border-bottom: #eeeeee solid thin;background: #fff;background-size: .16rem;position: relative;padding-left: .3rem;overflow: hidden;height: .92rem}
+ */ 
+ #auditlayoutinfo ul li>em{right: .6rem;}
+ #auditlayoutinfo ul .rem{background: #fff;}
+ #auditlayoutinfo ul .rem em{right: .3rem;}
+ #public_matter {margin-top:6px;color:#777777;font-size:14px;text-align: left;}
+ 
+  
+ 
+#auditlayout ul li p{padding-right: 2rem;white-space: nowrap;overflow: hidden;width:80%;text-overflow: ellipsis;line-height: 20px;color: #000;padding-top:8px;font-size:15px;}
+
+.auditlayoutdiv img {margin-left: 0px;width: 80px; height: 80px;margin-top: -10px;border-radius: 0.15rem;}/*头像的偏移-10*/
+/* .stationname {font-size:14px;color:#000;margin-left: 100px;margin-top: -60px;}/**/ */
+.stationname {font-size:15px;color:#000;margin-left: 100px;}/* */
+#publicViewLayout  h2{
+   padding-right: .2rem;word-wrap:break-word;overflow: hidden;text-overflow: ellipsis;line-height:20px;color: #000;font-size:15px; 
+   margin-top: -82px;
+   margin-left: 100px;
+   width:64%;
+   height:80px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -moz-box;
+  -moz-line-clamp: 4;
+  -moz-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;  
+}
+#specailWorkauditLayout  h2{
+   padding-right: .2rem;word-wrap:break-word;overflow: hidden;text-overflow: ellipsis;line-height:20px;color: #000;font-size:15px; 
+   margin-top: -82px;
+   margin-left: 100px;
+   width:64%;
+   height:80px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -moz-box;
+  -moz-line-clamp: 4;
+  -moz-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;  
+}
+#enforcementViewlayout  h2{
+   padding-right: .2rem;word-wrap:break-word;overflow: hidden;text-overflow: ellipsis;line-height:20px;color: #000;font-size:15px; 
+   margin-top: -82px;
+   margin-left: 100px;
+   width:64%;
+   height:80px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -moz-box;
+  -moz-line-clamp: 4;
+  -moz-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;  
+}
+
+#dismissalViewLayout  h2{
+   padding-right: .2rem;word-wrap:break-word;overflow: hidden;text-overflow: ellipsis;line-height:20px;color: #000;font-size:15px; 
+   margin-top: -82px;
+   margin-left: 100px;
+   width:64%;
+   height:80px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -moz-box;
+  -moz-line-clamp: 4;
+  -moz-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;  
+}
+
+
+/* #attachment {width:100%;height:30px;} */
+/* style="margin-top:6px;background-color:#F0F0F0;font-size:14px;" */
+.auditlayoutdiv .enclosurename a{
+     font-size: 14px;line-height: 32px;border-bottom: #eeeeee solid thin;background:#fBFBFB url(../img/limg/into_right.png) no-repeat 95% .20rem;background-size: .14rem;position: relative;margin-bottom: .1rem;height:32px;
+ }
+.auditlayoutdiv .enclosurename a {display: flex;height: 32px;} 
+ 
+.auditlayoutdiv{font-size:16px;padding: .3rem;background: #ffffff;margin-top: .1rem;border-radius: 0.15rem;}
+ 
+ 
+ 
+ .stationcontactinfoblank{height: 20px;}
+.auditlayoutinfo  h1{ font-size:14px;margin-top: 40px;padding-right: .2rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;line-height: 30px;color: #666666;height: 30px;text-align: left}
+.auditlayoutinfo p{font-size:14px;padding-right: 2rem;white-space: nowrap;overflow: hidden;width:80%;text-overflow: ellipsis;line-height: 30px;height: 30px;color: #666666;padding-top:0px;}
+
+.stationbuttonbg{margin-left:14px;width: 120px; height: 24px;font-size:16px;padding: .3rem;background: #FAFAFA;margin-top: 30px;border-radius: 0.1rem;}
+.stationbuttonbg  h1{ font-size:14px;margin-top: 66px;padding-right: .2rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;line-height: 30px;color: #666666;height: 30px;text-align: left}
+.stationbuttonbg p{font-size:14px;padding-right: 2rem;white-space: nowrap;overflow: hidden;width:80%;text-overflow: ellipsis;line-height: 30px;height: 30px;color: #666666;padding-top:0px;}
+
+
+.stationbuttonbg2{margin-left:200px;width: 120px; height: 24px;font-size:16px;padding: .3rem;background: #FAFAFA;margin-top: -52px;border-radius: 0.1rem;}
+.stationbuttonbg2  h1{ font-size:14px;margin-top: 66px;padding-right: .2rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;line-height: 30px;color: #666666;height: 30px;text-align: left}
+.stationbuttonbg2 p{font-size:14px;padding-right: 2rem;white-space: nowrap;overflow: hidden;width:80%;text-overflow: ellipsis;line-height: 30px;height: 30px;color: #666666;padding-top:0px;}
+
+/* 主任会议时间届次和成员 */
+.enforcement_meetingshijian p{font-size:14px;padding-right: 2rem;white-space: nowrap;overflow: hidden;width:80%;text-overflow: ellipsis;line-height: 30px;height: 30px;color: #666666;padding-top:0px;}
+.enforcement_groupmember p{font-size:14px;padding-right: 2rem;white-space: nowrap;overflow: hidden;width:80%;text-overflow: ellipsis;line-height: 30px;height: 30px;color: #666666;padding-top:0px;}
+.captionFontsize {font-size:16px;color: #000;}
+
+
+.textarea{
+    width: 98%;
+    min-height: 20px;
+    max-height: 300px;
+    margin: auto;
+    outline: 0;
+    font-size: 12px;
+    padding: 2px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: .9rem;
+    background: #fff no-repeat 95% .33rem;
+    background-size: .14rem;
+    height: .88rem;
+    border-radius: 0.1rem;
+    margin-top: .2rem;
+    font-size: .31rem;
+}
+
+.nodata2 {
+	text-align: center;
+}
+
+
+.auditlayoutdiv {
+  overflow:auto;
+  overflow-x: hidden;
+}
+
+.flex-outer  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-outer div:nth-child(2) {
+  margin-right: 0px;
+}
+
+.flex-outer div:nth-child(4) {
+  margin-right: 0px;
+}
+
+.stationbuttonbg a {
+  display: flex;
+}
+
+
+.stationbuttonbg2 a {
+  display: flex;
+}
+
+.stationbuttonbg img {
+  width: 30px;
+  height: 30px;
+} 
+
+.stationbuttonbg h2 {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+
+.stationbuttonbg2 a {
+  display: flex;
+}
+
+.stationbuttonbg2 img {
+  width: 30px;
+  height: 30px;
+} 
+
+.stationbuttonbg2 h2 {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.stationbuttonbg4 a {
+  display: flex;
+}
+

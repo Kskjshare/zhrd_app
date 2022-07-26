@@ -1,0 +1,68 @@
+#homepage > div {background-color: #F6F6F6;height: 100%;}
+.tout {background: #186aa3 url(../img/limg/danghui.png) 0 0 no-repeat;background-size: 1.5rem 1.5rem; background-position: .2rem .6rem; text-indent:2rem;line-height:2.5rem;  height: 20%;}
+.tout span {font-size: 22px; color: white;}
+
+#sliderDiv {
+    width:100%; 
+    height:200px; 
+    overflow:hidden;
+    position:relative;
+}
+.v_content_list {
+    position:absolute; 
+    width:100%;
+    top:0px; 
+    left:0px;
+}
+.slider2 {
+    float:left;
+ }
+
+ .slider2 li{ 
+      float:left;
+      list-style:none;
+      display:inline;
+ }
+
+ .slider2 img {
+ 	height: 100%;
+ 	display: block;
+ }
+
+ .num {
+      position:absolute; 
+      top: 170px;
+      height: 32px;
+      margin-left: calc(50% - 50px);
+ }
+
+ .num li{
+    float: left;
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #CCCCCC;
+ 	background-image: url(../img/limg/uncheckIcon.png);
+}
+
+.num li.on{
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    margin-left: 5px;
+    border: 0;
+    border: 1px solid #CCCCCC;
+    background-image: url(../img/limg/checkIcon.png);;
+    font-weight: bold;
+ }
+
+
+#loginMenuDiv {height: 15%; display: flex; justify-content: space-around;background-color: white;}
+#loginMenuDiv div {width: 25%;}
+#loginMenuDiv div img {width: 90%; height: 90%; margin-left: 5%; margin-top: 5%;}

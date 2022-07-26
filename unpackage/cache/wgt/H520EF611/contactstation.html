@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>汝州智慧人大综合服务管理平台</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<link href="css/reset.css" rel="stylesheet" />
+		<link href="css/layout.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/pdfh5.css" />
+		<link rel="stylesheet" href="css/datepicker.css" />
+		<link href="css/contactstation.css" rel="stylesheet" type="text/css" />
+		<!--<link href="css/quill.snow.css" rel="stylesheet" type="text/css"/>-->
+		<link href="https://cdn.staticfile.org/quill/1.3.6/quill.snow.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<!--通知公告-->
+		<!-- <section id="notice" class="normallist">
+			<header>
+				<h1>履职服务</h1>
+			</header>
+			<article>
+				<h1>通知公告</h1>
+				<ul id="noticesel">
+					<li>
+						<p class="noticeb">通知
+							<span id="tongzhigonggaoSpan"></span>
+						</p>
+					</li>
+					<li>
+						<p class="noticey">公告</p>
+					</li>
+					<li>
+						<p class="noticeb">要闻</p>
+					</li>
+					<li>
+						<p class="noticey">法律法规</p>
+					</li>
+
+					
+				</ul>			
+				
+				<div class="nodata"></div>
+
+			</article>
+		</section> -->
+		
+		
+		<!--通知公告列表-->
+		<section id="noticebulletin" class="contactstationlist">
+			<!-- <header> -->
+			<header><a class="hisback"></a>
+				<h1>资讯</h1>
+			</header>
+			
+			<article>
+				<nav><a class="sel">工作动态</a><a>代表履职</a><a>通知公告</a><a>代表风采</a></nav>
+				<ul class="fenye" >
+					<li>
+						<img ico src="http://www.rzsrd.gov.cn:9002/upfile/avatar.png">
+						<a bindattr="rssid">
+							<h1 bindkeys="title">汝州市风穴路街道塔寺社区人大代表联络站举行授牌仪式</h1>
+							<p bindkeys="shijian">2021-01-06</p>
+						</a>
+					</li>
+					
+				</ul>
+				<!-- <div class="nodata">点击加载更多</div>
+				<div style="text-align: center;">
+					<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+				</div> -->
+			</article>
+		</section>
+	
+	
+	
+		
+		<!--联络站详情-->
+		<section id="representativeActivity" class="nofooter delegateSearch">
+			<header><a class="hisback"></a>
+				<h1>履职活动</h1>
+			</header>
+			
+			<article>				
+				<ul class="fenye" >
+					<li>
+						<img ico src="">
+						<a bindattr="rssid">
+							<h1 bindkeys="title"></h1>
+							<p bindkeys="shijian"></p>
+						</a>
+					</li>
+				</ul>
+				<div class="nodata">点击加载更多</div>
+				<div style="text-align: center;">
+					<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+				</div>
+			</article>
+		</section>
+		<section id="representativeWorkDynamic" class="nofooter delegateSearch">			
+			<header><a class="hisback"></a>
+				<h1>工作动态</h1>
+			</header>
+			
+			<article>				
+				<ul class="fenye" >
+					<li>
+						<img ico src="">
+						<a bindattr="rssid">
+							<h1 bindkeys="title"></h1>
+							<p bindkeys="shijian"></p>
+						</a>
+					</li>
+				</ul>
+				<div class="nodata">点击加载更多</div>
+				<div style="text-align: center;">
+					<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+				</div>
+			</article>
+		</section>
+
+		<section id="representativeNoticebulletin" class="nofooter delegateSearch">			
+			<header><a class="hisback"></a>
+				<h1>通知公告</h1>
+			</header>
+			
+			<article>				
+				<ul class="fenye" >
+					<li>
+						<img ico src="">
+						<a bindattr="rssid">
+							<h1 bindkeys="title"></h1>
+							<p bindkeys="shijian"></p>
+						</a>
+					</li>
+				</ul>
+				<div class="nodata">点击加载更多</div>
+				<div style="text-align: center;">
+					<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+				</div>
+			</article>
+		</section>
+		
+		<!--驻站代表界面-->
+		<section id="residentRepresentative" class="nofooter delegateSearch">
+			<header><a class="hisback"></a>
+				<h1>驻站代表</h1>
+			</header>
+			
+			
+			<article>
+				<!-- <div class="search"><input placeholder="请输入关键字"><button></button></div> -->
+				<ul class="fenye" >
+					
+					<li>
+						<img  class="headimg" avatar alt="" />
+						
+						<a bindattr="myid,mission">
+							
+							<h1 bindkeys="realname"></h1>
+							
+							<h2 class="circleslist" bindkeys="circleslist"></h2>
+							<p  bindkeys="daibiaoDWjob"></p>
+							<p  bindkeys="民族:&nbsp;&nbsp;,nationid"></p>
+							
+							<p  bindkeys="党派:&nbsp;&nbsp;,clan"></p>
+						</a>
+					</li>
+				</ul>
+				<div class="nodata">点击加载更多</div>
+				<div style="text-align: center;">
+					<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+				</div>
+			</article>
+			
+			
+			
+			<!-- <article>
+				<ul class="fenye" >
+					<li>
+						<img ico src="">
+						<a bindattr="myid,rssid">
+							<h1 bindkeys="title"></h1>
+							<p  bindkeys="shijian"></p>
+						</a>
+					</li>
+				</ul>
+				<div class="nodata">点击加载更多</div>
+				<div style="text-align: center;">
+					<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+				</div>
+			</article> -->
+			
+		</section>	
+		
+		
+		<section id="delegateSearch" class="nofooter delegateSearch">
+			<header><a class="hisback"></a>
+				<h1>代表查询</h1>
+			</header>
+			
+			<article>
+				<div class="search"><input  placeholder="请输入关键字" @input="inputlistener">
+				<button id="search_btn"></button>
+				<button id="search_delete_btn"></button>
+				
+				</div>
+				<ul class="fenye" >
+					
+					<li>
+						<img  class="headimg" avatar alt="" />
+						
+						<a bindattr="myid,mission">
+							
+							<h1 bindkeys="realname"></h1>
+							
+							<h2  class="circleslist" bindkeys="circleslist"></h2>
+							<p  bindkeys="daibiaoDWjob"></p>
+							<p  bindkeys="民族:&nbsp;&nbsp;,nationid"></p>
+							
+							<p  bindkeys="党派:&nbsp;&nbsp;,clan"></p>
+						</a>
+					</li>
+				</ul>
+				<div class="nodata">点击加载更多</div>
+				<div style="text-align: center;">
+					<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+				</div>
+			</article>
+		</section>	
+		
+		
+		
+		<section id="liaisonstationdetail" class="nofooter liaisonstation">
+			<header><a class="hisback"></a>
+				<h1>标题</h1>
+			</header>
+			<article>
+				<div class="liaisonstationdivp2">					
+						
+					<li>
+						<img ico src="">							
+						<h2 bindkeys="title" class="stationname"></h2>						
+					</li>
+					
+					<div class="stationcontactinfo">
+						<h1 bindkeys="通讯地址:&nbsp;&nbsp;,address"></h1>
+						<p bindkeys="站长:&nbsp;&nbsp;,master"></p>
+						<p bindkeys="电话:&nbsp;&nbsp;,mastertelephone"></p>
+						<p bindkeys="联系人:&nbsp;&nbsp;,linkman"></p>
+						<p bindkeys="电话:&nbsp;&nbsp;,linkmantelephone"></p>
+					</div>
+					<div  style="color:#000;font-size:16px;margin-top:10px;">简介:</div>
+					<div  bindkeys="matter" style="margin-top:6px;color:#777777;font-size:14px;"></div>
+
+				</div>		
+					
+				
+				
+				<div class="flex-outer flex-attr">
+					<div class="stationbuttonbg">
+						<a href="#representativeNoticebulletin">
+							<!-- <img ico src="img/limg/detail_station_intification.png" id="NoticeImageId"> -->
+							<img src="img/limg/detail_station_intification.png">
+							<h2>通知公告</h2>					
+						</a>
+						
+					</div>
+					
+					<div class="stationbuttonbg2">
+						<a href="#representativeActivity">
+							<!-- <img ico src="img/limg/detail_station_intification.png" id="NoticeImageId"> -->
+							<img src="img/limg/detail_station_action.png">
+							<h2>履职活动</h2>					
+						</a>
+						
+					</div>
+
+					<div class="stationbuttonbg">
+						<a href="#representativeWorkDynamic">
+							<!-- <img ico src="img/limg/detail_station_intification.png" id="NoticeImageId"> -->
+							<img src="img/limg/detail_station_work.png">
+							<h2>工作动态</h2>					
+						</a>
+						
+					</div>
+
+					<div class="stationbuttonbg4">
+						<a href="#residentRepresentative">
+							<!-- <img ico src="img/limg/detail_station_intification.png" id="NoticeImageId"> -->
+							<img src="img/limg/detail_station_represent.png">
+							<h2>驻站代表</h2>					
+						</a>
+						
+					</div>							
+				</div>	
+				
+				
+			<div class="stationcontactinfoblank">
+				
+				
+			</div>			
+			</article>
+		</section>
+		
+	<section id="liaisonstation" class="contactstationlist">			
+		<header><a class="hisback"></a>
+			<h1>联络站</h1>
+		</header>
+		
+		<article>
+			<nav><a class="sel">全部联络站</a><a>示范联络站</a><a>规范化联络站</a><a>明星联络站</a></nav>
+			<ul class="fenye" >
+				<li>
+					<img ico src="http://www.rzsrd.gov.cn:9002/www/img/limg/station.png">
+					<a bindattr="rssid">
+						<!-- <h1 bindkeys="name"></h1> -->
+						<h1 bindkeys="title">湾李人大网上代表联络站</h1>
+						
+						<p style="color:#777777;font-size:13px;" bindkeys="联系人: ,linkman">孙振峰</p>
+					</a>
+				</li>
+			</ul>
+			<div class="nodata">点击加载更多</div>
+			<div style="text-align: center;">
+				<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+			</div>
+		</article>
+	</section>
+	
+	
+	
+	
+    <section id="representative">
+		<header><a class="hisback"></a>
+			<h1>标题</h1>
+		</header>
+		<article>
+			<div class="reprensentivedivp">					
+				
+				<div id="delegatbackgroundtop" >
+					
+				</div>
+						
+				<div  class="divleft">
+					<div id="delegatehead"><img class="headimg" avatar alt="" /></div>
+				</div>
+				
+				
+				<div class="divright">
+				<h1 bindkeys="职务:&nbsp;&nbsp;,daibiaoDWjob"></h1>
+				<p bindkeys="性别:&nbsp;&nbsp;,sex"></p>					
+				<!-- <p class="nationid" bindkeys="民族:&nbsp;&nbsp;,nationid"></p> -->
+				
+				<!-- <p bindkeys="党派:&nbsp;&nbsp;,clan"></p> -->
+				<p bindkeys="代表团:&nbsp;&nbsp;,mission"></p>
+				<!-- <p bindkeys="联络站:&nbsp;&nbsp;,station"></p>	 -->
+				<!-- <h2 class="titleid" bindkeys="title" ></h2> -->
+										
+												
+				</div>
+				
+				<!-- <div class="stationcontactinfo">
+					<h1 ></h1>
+					<p ></p>
+					
+				</div>	 -->							
+			</div>										
+					
+		</article>
+	</section>
+	
+	
+	
+	
+				
+	<section id="delegationchild" class="contactstationlist">			
+		<header><a class="hisback"></a>
+			<h1>资讯</h1>
+		</header>
+		
+		<article>
+			<nav><a class="sel">工作动态</a><a>联络站点</a><a>驻站代表</a></nav>
+			<ul class="fenye" >
+				<li>
+					<img ico src="">
+					<a bindattr="stationid,rssid">
+						<h1 bindkeys="title"></h1>
+						<p  bindkeys="shijian"></p>
+					</a>
+				</li>
+			</ul>
+			<div class="nodata">点击加载更多</div>
+			<div style="text-align: center;">
+				<img class="nosolutions" src="img/limg/comm_nodata.png" alt="" />
+			</div>
+		</article>
+	</section>
+	
+	
+	<section id="stationDelegation" class="normallist">
+		<header><a class="hisback"></a>
+			<h1>代表团</h1>
+		</header>
+		<article>
+			<ul>
+				<li>
+					<a href="#delegationchild" bindattr="myid,rssid" >
+						<p class="bluedot"></p>
+						<!-- <p class="tabTown">小屯镇</p>							 -->
+						<p bindkeys="name" class="delegationchild"></p>
+					</a>
+				</li>
+				
+			</ul>
+			<div class="nodata"></div>
+		</article>
+	</section>
+		
+		<!--建议分类-->
+		<section id="suggesttype" class="secondlist">
+			<header><a class="hisback"></a>
+				<h1>建议统计</h1>
+			</header>
+			<article>
+				<nav><a class="sel" memutype="1">建议状态</a><a memutype="2">代表团建议</a></nav>
+				<div id="bzt"></div>
+				
+			</article>
+		</section>
+		
+
+		<div id="zzc">
+			<ul>
+			</ul>
+		</div>
+
+		<div id="zzc6">
+			<ul>
+			</ul>
+		</div>
+		
+		
+		<!--民族专用-->
+		<div id="zzc1">
+			<ul>
+			</ul>
+		</div>
+		<!--输入框专用-->
+		<div id="zzc2">
+			<ul>
+
+			</ul>
+		</div>
+		<!--层次-->
+		<div id="zzc10">
+			<ul>
+
+			</ul>
+
+		</div>
+
+		<!--届次-->
+		<div id="zzc11">
+			<ul>
+
+			</ul>
+
+		</div>
+
+		<!--工作动态-->
+		<section id="seenotice" class="nofooter suginfo">
+			<header><a class="hisback"></a>
+				<h1>标题</h1>
+			</header>
+			<article>
+				<div class="divcontactstationtop">
+					<h1 bindkeys="title"></h1>
+					<h4 bindkeys="来源: ,origin"></h4>
+					<h4 class="publishTime" bindkeys="时间: ,shijian"></h4>
+				</div>
+				
+				<div class="slt"><img ico></div>
+				<div bindkeys="matter" class="divp2">
+				</div>
+				<!-- <div class="slt"><b>缩略图:</b><br><img ico></div> -->
+				
+			</article>
+		</section>
+
+	
+			
+		<footer>	
+			
+			<a href="#noticebulletin">资讯</span></a>
+			<a href="#stationDelegation">代表团</a>			
+			<a href="#liaisonstation">联络站</a>
+			<a href="#delegateSearch">代表查询</a>
+		</footer>
+		<div id="loadbox" class="loadbox"><span>加载中</span></div>
+
+	</body>
+	<script src="js/md5.min.js"></script>
+	<script src="data/dictdata.js"></script>
+	<script src="data/rsscode.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script src="js/rsseasy.min.js"></script>
+	<script src="js/rsseasy/html.min.js"></script>
+	<script src="js/rsseasy/adapter.min.js"></script>
+	<script src="js/rsseasy/app.js"></script>
+	<script src="js/rsseasy/datetime.min.js"></script>
+	<!--        <script src="js/rsseasy/order.min.js"></script>
+                <script src="js/rsseasy/pay.min.js"></script>-->
+	<script src="js/rsseasy/comment.js"></script>
+	<script src="js/rsseasy/component.js"></script>
+	<script src="js/rsseasy/advert.min.js"></script>
+	<script src="js/rsseasy/user.min.js"></script>
+	<script src="js/rsseasy/rssapi.min.js"></script>
+	<script src="js/rsseasy/popup.min.js"></script>
+	<script src="js/rsseasy/dialog.min.js"></script>
+	<script src="js/rsseasy/progressbar.min.js"></script>
+	<script src="js/validated.v2.min.js" type="text/javascript"></script>
+	<script src="js/rsseasy/validatedv3.min.js"></script>
+	<script src="js/rsseasy/weixin.js" type="text/javascript"></script>
+	<script src="js/li/qrcode.js" type="text/javascript"></script>
+	<!-- <script src="js/li/login.js?random=1" type="text/javascript"></script> -->
+	<script src="js/li/echarts.min.js" type="text/javascript"></script>
+	<script src="js/li/bootstrap-datepicker.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/li/global.js" type="text/javascript"></script>
+	<script src="js/li/contactstation.js" type="text/javascript"></script>
+	<script src="js/li/tj.js" type="text/javascript"></script>
+	<script src="js/li/clipboard.min.js" type="text/javascript"></script>
+	<script src="https://unpkg.com/video.js@6.11.0/dist/video.min.js"></script>
+	<script src="js/li/pdf.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/li/pdf.worker.js" type="text/javascript" charset="utf-8"></script>
+	
+	<!--<script src="js/li/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>-->
+	<!--<script src="js/rsseasy/adapter.js" type="text/javascript"></script>-->
+	<!--        <script type="text/javascript" src="/ueditor/ueditor.config.js"></script>
+                <script type="text/javascript" src="/ueditor/ueditor.all.min.js"></script>
+                <script type="text/javascript" src="/ueditor/lang/zh-cn/zh-cn.js"></script>-->
+	<script src="js/li/pdfh5.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/li/quill.js" type="text/javascript"></script>-->
+	<script src="js/https_quill.js"></script>
+	
+	<script>
+	
+	
+		// var quill = new Quill('#editor', {
+		// 	theme: 'snow'
+		// });
+		// var quill1 = new Quill('#editor1', {
+		// 	theme: 'snow'
+		// });
+		// var quill2 = new Quill('#editor2', {
+		// 	theme: 'snow'
+		// });
+		// var quill3 = new Quill('#editor3', {
+		// 	theme: 'snow'
+		// });
+		// var quill4 = new Quill('#editor4', {
+		// 	theme: 'snow'
+		// });
+	</script>
+</html>
